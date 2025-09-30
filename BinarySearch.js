@@ -9,7 +9,7 @@ var search = function (nums, target) {
         } else if (target < nums[mid]) {
             right = mid - 1
         } else {
-            left = mid + 
+            left = mid + 1
         }
     }
     return -1
