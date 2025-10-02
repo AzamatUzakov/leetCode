@@ -4,4 +4,4 @@ Array.prototype.last = function () {
 };
 
 let arr = [1, 2, 3]
-arr.last
+arr.last()
