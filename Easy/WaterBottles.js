@@ -4,14 +4,12 @@ var numWaterBottles = function (numBottles, numExchange) {
     let num = numBottles
     let ch = numBottles
     while (ch >= numExchange) {
-        ch = ch / numExchange
-        num += ch
-        console.log(ch);
+        let newFull = Math.floor(ch / numExchange)
+        num += newFull
+        ch = (ch % numExchange) + newFull
     }
-
+    return num
 };
+numWaterBottles(15, 4)
 
-console.log(
-    numWaterBottles(9, 3)
-);
 
