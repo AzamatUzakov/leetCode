@@ -14,4 +14,3 @@ let init = 25;
 
 let result = reduce(nums, fn, init);
 
-console.log(result);
