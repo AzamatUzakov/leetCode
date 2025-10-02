@@ -24,7 +24,3 @@ var romanToInt = function (s) {
     }
     return res
 };
-
-console.log(
-    romanToInt("IVI")
-);
