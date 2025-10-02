@@ -1,6 +1,8 @@
 var isValid = function (s) {
     let stack = []
+
     let splitWord = s.split("")
+
     for (let i of splitWord) {
         if (i === "(" || i === "[" || i === "{") {
             stack.push(i)
