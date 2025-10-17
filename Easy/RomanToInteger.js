@@ -26,4 +26,4 @@ var romanToInt = function (s) {
     return res
 };
 
-romanToInt("VII")
+console.log(romanToInt("VII"));
