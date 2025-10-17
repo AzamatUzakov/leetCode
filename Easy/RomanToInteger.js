@@ -15,6 +15,7 @@ var romanToInt = function (s) {
     for (let i = 0; i < split.length; i++) {
         let key = split[i]
         if (!romanMap.has(key)) return false
+
         let value = romanMap.get(key)
         if (i + 1 < split.length && value < romanMap.get(split[i + 1])) {
             res -= value
@@ -24,3 +25,5 @@ var romanToInt = function (s) {
     }
     return res
 };
+
+romanToInt("VII")
