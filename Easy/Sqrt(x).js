@@ -1,5 +1,4 @@
 var mySqrt = function (x) {
-
     let res = 0
     while (true) {
         if ((res * res) < x) {
