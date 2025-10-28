@@ -1,6 +1,4 @@
 var findMaxConsecutiveOnes = function (nums) {
-
-
     console.log(nums);
     let maxLength = 0
     let maxNum = 0
